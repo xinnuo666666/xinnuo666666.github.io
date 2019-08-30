@@ -1,0 +1,17 @@
+I"V<p>Use the guide to prepare good looking posts! The theme has a sidebar in the post layout which consists of post image, recent posts and facebook like box. This can be extended by editing the <code class="highlighter-rouge">sidebar.html</code> in <strong>_includes</strong> folder.</p>
+
+<h2 id="image">Image</h2>
+
+<ul>
+  <li>Use image of ratio 400x250 (800x500).</li>
+  <li>Keep them inside <code class="highlighter-rouge">images</code> folder.</li>
+  <li>Mention image name in the front matter as shown below</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-yml" data-lang="yml"><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span>  <span class="s2">"</span><span class="s">Some</span><span class="nv"> </span><span class="s">title"</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="s">some category</span>
+<span class="na">img</span><span class="pi">:</span> <span class="s">image-name.jpg</span>
+<span class="nn">---</span></code></pre></figure>
+:ET

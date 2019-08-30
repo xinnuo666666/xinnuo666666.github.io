@@ -1,0 +1,3 @@
+I"«<h1 id="installation">Installation:</h1>
+<p>Fork the <code class="highlighter-rouge">master</code> branch and delete <code class="highlighter-rouge">gh-pages</code> branch in it. This is important because <code class="highlighter-rouge">gh-pages</code> branch is used here only to host the blog. You should be using the master branch as the source and create a fresh <code class="highlighter-rouge">gh-pages</code> branch.</p>
+:ET

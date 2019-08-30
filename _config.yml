@@ -1,0 +1,72 @@
+# Site settings
+title: LifeTime Sports
+description: "Our goal is to get kids moving and keep moving."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+logo_url: logo.png
+# Hero
+hero: 
+    hero_img: backgroud.jpg
+    hero_title: LifeTime Sports
+    hero_description: Our goal is to get kids moving and keep moving.
+# Contents info
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+# 分页设置
+paginate: 6
+paginate_path: /page:num/
+# Contact info
+contact:
+    phone: 18001000000
+    emergency: 
+    email: contact@yoursite.com
+    address: 北京市通州区XXX
+
+# Opening hours
+monday_friday: 9:00 – 18:00
+saturday: 10:00 – 17:00
+sunday: 10:00 – 15:00
+
+# Map
+map:
+    zoom: 5
+    address: 北京市通州区XXX
+    address_details: map.png
+
+# Social settings
+facebook: http://facebook.com
+twitter: http://twitter.com
+instagram: http://instagram.com
+youtube: http://youtube.com
+skype: skype:obaez_design?userinfo
+feed: yes
+
+# Footer
+copyright: © 2019 LifeTime Sports - All rights reserved
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Ruby Gems
+plugins: [jekyll-paginate,jekyll-sitemap]
+# Theme Settings
+analytics: 
+google_verification:
+
+# getsimpleform@lifetimesports.net
+api_token: 6e201a8b227be344d406fcd89f31077b
+sass:
+  sass_dir: assets/css
+  style: :nested
